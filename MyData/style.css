@@ -1,0 +1,44 @@
+#custom-logo, #custom-loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#custom-logo {
+    background-image: url('lodingicon.png');
+    background-size: contain;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 150px;
+    height: 150px;
+}
+
+#custom-loader {
+    margin-top: 100px;
+    width: 50%;
+    height: 13px;
+    background: rgb(146, 146, 146);
+    box-shadow: 0px 0px 15px 5px rgb(0, 0, 0);
+    
+}
+
+#custom-loader .fill {
+    
+    width: 0%;
+    height: 100%;
+    background: rgb(255, 149, 0);
+    box-shadow: 0px 0px 5px 5px rgb(220, 92, 0);
+}
+
+#custom-loader .label {
+    font-weight: bold;
+    color: #ffffff;
+    position: relative;
+    top: -13px;
+    font-size: 12px;
+    text-align: center;
+    font-family: sans-serif, calibri;
+}
